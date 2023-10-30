@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.header {
+  background-image: url("../public/bg-image.svg");
+}
+.aboutus {
+  background-image: url("../public/bg-image (1).svg");
+}
+.contenir {
+  padding: 0px 100px;
+}
+section {
+  padding: 100px;
+}
+h1 {
+  margin: 0;
+}
+.banner{
+    background-image: url("../public/newsletter.png");
+    background-size: contain ;
+    background-repeat: no-repeat; 
+    
+}
